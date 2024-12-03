@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>buuctf——misc——wp</title>
+    <link href="/2024/12/03/buuctf%E2%80%94%E2%80%94misc/"/>
+    <url>/2024/12/03/buuctf%E2%80%94%E2%80%94misc/</url>
+    
+    <content type="html"><![CDATA[<p>qr<br>下载文件——解压压缩包——得到一个二维码——–使用CQR工具扫描——得到flag</p><hr><p>LSB<br>顾名思义—-下载附件—-解压缩——–用stegsolve打开——-选择analyse→data extract———</p><img src="/2024/12/03/buuctf%E2%80%94%E2%80%94misc/image.png" class=""><p>———发现是png格式———修改文件后缀为png——打开得到flag</p><hr><p>乌峰镇会种图<br>下载附件—–发现是图片——用stegsolve打开———</p><img src="/2024/12/03/buuctf%E2%80%94%E2%80%94misc/1.png" class=""><p>——拉到最下面——得到flag&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;&#x2F;也可以直接用winhex或010打开———–尾部就是flag</p><hr><p>二维码<br>下载附件———-解压缩——-得到一个二维码——-使用CQR扫描——–发现secret is here——–猜到可能有其他文件———使用binwalk看一下——–发现zip文件——-用foremost&#x2F;binwalk提取—–解压缩发现要密码———但txt文件提醒我们是四位纯密码———-使用Ziperello打开——选择暴力破解——–设置爆破密码位数———得到密码——–再次解压缩txt文件—-得到flag</p><hr><p>镜子里面的世界<br>打开是图片———另存为（）——–发现文件名为steg.png———-易想到用stegsolve打开——-选择analyse→data extract———可以看到关键字secret key is：——–冒号后就是flag—–复制到答案区—–用flag{}包起来———删去复制时的空格—–提交</p><hr><p>大白<br>下载附件———-题目提示屏幕太小（bushi———–联想到可能是png图片高度被修改导致显示不完全——-放进风二西工具png长宽高一把梭——–得到新图片——打开得到flag</p><hr><p>签到<br>打开题目获得flag</p><hr><p>金三胖<br>下载附件——–解压缩得到gif动图——–发现flag被分散到不同帧——-用stegsolve打开——–</p><img src="/2024/12/03/buuctf%E2%80%94%E2%80%94misc/2.png" class=""><p>———逐帧查找将flag连起来———-可以使用截图工具的提取文字（不用手打了）</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试文章</title>
     <link href="/2024/12/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2024/12/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
